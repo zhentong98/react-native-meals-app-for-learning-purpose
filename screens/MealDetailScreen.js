@@ -20,7 +20,11 @@ function MealDetailScreen({route, navigation}) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => {
-                return <IconButton onPress={headerButtonPressHandler}/>
+                return <IconButton
+                    onPress={headerButtonPressHandler}
+                    icon="star"
+                    color="white"
+                />
             }
         })
     }, [navigation, headerButtonPressHandler])
