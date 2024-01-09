@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "React Native Meals App Demo",
+    "name": "My Recipe Book",
     "slug": "react-native-meals-app-demo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "backgroundColor": "#24180f",
@@ -20,7 +20,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.xover.testing.mealsapp.demo",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.1"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,14 +28,14 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.xover.testing.mealsapp.demo",
-      "versionCode": 1
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "3a13ac07-4534-4941-9e9c-4f1bd443cd7b"
+        "projectId": "574faafb-b05a-44c5-b874-591be9bb1f54"
       }
     }
   }
